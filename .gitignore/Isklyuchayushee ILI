@@ -1,0 +1,37 @@
+package com.company;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+  // write your code here
+        Scanner in = new Scanner(System.in);
+        int x = in.nextInt();
+        int y = in.nextInt();
+
+        boolean a;
+        boolean b;
+
+        if(x == 1){
+            a = true;
+        }
+        else a = false;
+
+        if(y == 1){
+            b = true;
+        }
+        else b = false;
+
+        if(abc(a, b) == true)
+            System.out.print(1);
+
+        else System.out.print(0);
+    }
+
+    static boolean abc(boolean x, boolean y) {
+        if((x == true && y != true) || (x != true && y == true)){
+            return true;
+        }
+        else return false;
+    }
+}
