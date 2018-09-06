@@ -1,0 +1,21 @@
+package com.company;
+import java.util.Scanner;
+
+
+
+public class Main {
+    public static void main(String[] args) {
+      int n;
+      int x;
+      Scanner input = new Scanner(System.in);
+      long sum=0;
+      n=input.nextInt();
+      for (int i=1; i<=n; i++)
+      {
+          x=input.nextInt();
+          sum+=x;
+
+        }
+        System.out.println(sum);
+    }
+}
