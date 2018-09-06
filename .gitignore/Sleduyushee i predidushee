@@ -1,0 +1,18 @@
+package com.company;
+import java.util.Scanner;
+ 
+public class Main {
+ 
+    public static void main(String[] args) {
+        Scanner input= new Scanner(System.in);
+        int a;
+        a=input.nextInt();
+        int b;
+        int c;
+        b=a-1;
+        c=a+1;
+        System.out.println("The next number for the number "+a+" is "+c+".");
+        System.out.println("The previos number for the number "+a+" is "+b+".");
+ 
+    }
+}
