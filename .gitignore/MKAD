@@ -1,0 +1,16 @@
+package com.company;
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int v;
+        int t;
+        int s = 109;
+        v=input.nextInt();
+        t=input.nextInt();
+        System.out.println(((s + (v * t % s)) % s));
+
+    }
+}
