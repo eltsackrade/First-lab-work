@@ -1,0 +1,23 @@
+package com.company;
+import java.util.Scanner;
+
+
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int a;
+        int b;
+        a=input.nextInt();
+        b=input.nextInt();
+        for (int i=a; i<=b; i++)
+        {
+            double c;
+            c=Math.sqrt(i);
+            double Sqrt = c;
+            if (Sqrt*Sqrt== i)
+            System.out.println(i);
+
+        }
+    }
+}
