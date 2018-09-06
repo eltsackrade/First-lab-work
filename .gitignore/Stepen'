@@ -1,0 +1,20 @@
+import java.util.Scanner;
+ 
+public class Main {
+ 
+    static double power (double a, int n)
+    {
+        return Math.pow(a, n);
+    }
+ 
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        double a;
+        int n;
+        a=input.nextDouble();
+        n=input.nextInt();
+ 
+        System.out.print(power(a,n));
+    // write your code here
+    }
+}
